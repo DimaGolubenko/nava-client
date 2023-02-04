@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "react-perfect-scrollbar/dist/css/styles.css";
+
+html {
+  font-size: 16px;
+}

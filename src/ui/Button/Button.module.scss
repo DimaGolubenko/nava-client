@@ -1,0 +1,16 @@
+.button {
+  @apply h-12 px-3 text-center uppercase text-sm font-medium bg-black text-white;
+
+  &.link {
+    @apply text-primary bg-transparent;
+  }
+  &.secondary {
+    @apply bg-whisper text-primary;
+  }
+  &.outlined {
+    @apply bg-transparent text-primary border border-primary;
+  }
+  &.fullWidth {
+    @apply w-full;
+  }
+}

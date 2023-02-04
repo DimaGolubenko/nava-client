@@ -1,0 +1,8 @@
+.miniCart {
+  @apply flex flex-col justify-between h-full pt-7 pb-10;
+}
+.productList {
+  @apply overflow-y-scroll mb-5 pr-5;
+}
+.buttons {
+}

@@ -1,0 +1,16 @@
+.sidebar {
+  @apply w-[420px] fixed top-0 bottom-0 z-50 bg-white border-l-2 flex flex-col justify-between;
+  &.left {
+    left: 0;
+  }
+  &.right {
+    right: 0;
+  }
+}
+.header {
+  @apply h-[82px] px-10 bg-gray-100 flex justify-between items-center;
+  @apply uppercase text-lg font-medium;
+}
+.body {
+  @apply px-10 h-[calc(100vh-82px)];
+}

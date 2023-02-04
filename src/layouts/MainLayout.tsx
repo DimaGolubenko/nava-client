@@ -2,6 +2,7 @@ import { PropsWithChildren } from "react";
 
 import AppFooter from "@/components/AppFooter";
 import AppHeader from "@/components/AppHeader";
+import MiniCart from "@/components/MiniCart";
 
 export default function MainLayout({ children }: PropsWithChildren) {
   return (
@@ -9,6 +10,7 @@ export default function MainLayout({ children }: PropsWithChildren) {
       <AppHeader />
       <main className="grow">{children}</main>
       <AppFooter />
+      <MiniCart />
     </div>
   );
 }
