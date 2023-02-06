@@ -15,6 +15,7 @@ import { serverReduxLogger } from "@/utils/serverReduxLogger";
 import { rootReducer, RootState } from "./rootReducer";
 import { rootSaga } from "./rootSaga";
 import { useMemo } from "react";
+// import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 
 interface SagaStore extends Store {
   sagaTask?: Task;
@@ -22,8 +23,8 @@ interface SagaStore extends Store {
 
 let store: Store<RootState> | undefined;
 
-// export type AppDispatch = typeof store.dispatch;
-
+// let typedStore: Store<RootState>;
+// export type AppDispatch = typeof typedStore.dispatch;
 // export const useAppDispatch: () => AppDispatch = useDispatch;
 // export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
 
@@ -58,8 +59,9 @@ export const initStore = (preloadedState: RootState | {}) => {
     reducer: rootReducer,
     preloadedState: currentState,
     middleware: (getDefaultMiddleware) =>
-      getDefaultMiddleware({ thunk: false }).prepend(SagaMiddleware),
-    // .concat(getLoggerMiddleware() as Middleware),
+      getDefaultMiddleware({ thunk: false })
+        .prepend(SagaMiddleware)
+        .concat(getLoggerMiddleware() as Middleware),
   });
 
   (initedStore as SagaStore).sagaTask = SagaMiddleware.run(rootSaga);
