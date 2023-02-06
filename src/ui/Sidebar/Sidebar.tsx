@@ -11,9 +11,15 @@ type SidebarLocations = "left" | "right";
 interface SidebarProps extends PropsWithChildren {
   location?: SidebarLocations;
   title: string;
+  onClose: () => void;
 }
 
-const Sidebar: FC<SidebarProps> = ({ children, location = "right", title }) => {
+const Sidebar: FC<SidebarProps> = ({
+  children,
+  location = "right",
+  title,
+  onClose,
+}) => {
   const ref = useRef<Element | null>(null);
   const [mounted, setMounted] = useState(false);
 
@@ -32,7 +38,7 @@ const Sidebar: FC<SidebarProps> = ({ children, location = "right", title }) => {
         <div className={sidebarClass}>
           <header className={styles.header}>
             <h3>{title}</h3>
-            <button>
+            <button onClick={onClose}>
               <Image src={closeIcon} alt={title} />
             </button>
           </header>

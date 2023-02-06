@@ -1,10 +1,13 @@
 import PerfectScrollbar from "react-perfect-scrollbar";
+import { useDispatch, useSelector } from "react-redux";
 import styles from "./MiniCart.module.scss";
 
 import { CartProduct } from "@/types/Cart.types";
-import Sidebar from "@/ui/Sidebar";
 import MiniCartCard from "./MiniCartCard";
+import Sidebar from "@/ui/Sidebar";
 import Button from "@/ui/Button/Button";
+import { RootState } from "@/store/rootReducer";
+import { toggleMiniCartVisibility } from "@/store/ui/uiSlice";
 
 // Temporary data
 const products: CartProduct[] = [
@@ -35,8 +38,19 @@ const subtotal = products.reduce((total, current) => {
 }, 0);
 
 const MiniCart = () => {
+  const isOpened = useSelector((state: RootState) => state.ui.isMiniCartOpened);
+  const dispatch = useDispatch();
+
+  const handleClose = () => {
+    dispatch(toggleMiniCartVisibility());
+  };
+
+  if (!isOpened) {
+    return null;
+  }
+
   return (
-    <Sidebar title={`Корзина (${count})`}>
+    <Sidebar title={`Корзина (${count})`} onClose={handleClose}>
       <div className={styles.miniCart}>
         <PerfectScrollbar className={styles.productList}>
           {products?.map((product) => (
