@@ -1,0 +1,7 @@
+.link {
+  @apply mr-9 pb-2 uppercase text-sm font-medium hover:border-b-2 border-primary;
+
+  &.hot {
+    @apply text-red-600 flex items-center gap-1;
+  }
+}
