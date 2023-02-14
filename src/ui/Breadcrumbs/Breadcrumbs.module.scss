@@ -1,0 +1,4 @@
+.item {
+  @apply block mr-3.5 last:m-0 relative uppercase last:after:hidden font-medium text-sm;
+  @apply after:content-["/"] after:absolute after:-right-2.5 after:top-0 after:block;
+}
