@@ -2,6 +2,8 @@ import { Breadcrumb } from "@/types/Breadcrumb.types";
 import Breadcrumbs from "@/ui/Breadcrumbs";
 import styles from "./Catalog.module.scss";
 
+import CatalogFilters from "./CatalogFilters";
+
 const breadcrumbs: Breadcrumb[] = [
   {
     path: "/",
@@ -19,7 +21,7 @@ const Catalog = () => {
       <div className="container mx-auto">
         <header className="max-h-6 flex items-center justify-between">
           <Breadcrumbs data={breadcrumbs} />
-          <div>Filters</div>
+          <CatalogFilters />
         </header>
         <div>Каталог товарів</div>
       </div>
