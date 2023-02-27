@@ -1,5 +1,10 @@
 import { initialDispatcher } from "@/init/initialDispatcher";
+import { serverDispatch } from "@/init/serverDispatch";
 import { Catalog } from "@/modules/catalog";
+import {
+  fetchProductsAsync,
+  selectProductList,
+} from "@/modules/catalog/store/productsSlice";
 import { disableSaga } from "@/utils/disableSaga";
 import { getInitialReduxState } from "@/utils/getInitialReduxState";
 import { GetServerSidePropsContext } from "next";
@@ -13,11 +18,20 @@ export const getServerSideProps = async (
     initializeStore()
   );
 
+  await serverDispatch(store, (dispatch) => {
+    dispatch(fetchProductsAsync());
+  });
+
   await disableSaga(store);
 
   const state = store.getState();
 
-  const currentPageReduxState = {};
+  const currentPageReduxState = {
+    products: {
+      ...state.products,
+      list: selectProductList(state),
+    },
+  };
 
   return {
     props: {

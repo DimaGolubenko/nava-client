@@ -3,6 +3,7 @@ import Breadcrumbs from "@/ui/Breadcrumbs";
 import styles from "./Catalog.module.scss";
 
 import CatalogFilters from "./CatalogFilters";
+import ProductList from "./ProductList";
 
 const breadcrumbs: Breadcrumb[] = [
   {
@@ -23,7 +24,9 @@ const Catalog = () => {
           <Breadcrumbs data={breadcrumbs} />
           <CatalogFilters />
         </header>
-        <div>Каталог товарів</div>
+        <div>
+          <ProductList />
+        </div>
       </div>
     </div>
   );
