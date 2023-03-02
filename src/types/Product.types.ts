@@ -13,8 +13,4 @@ export interface ProductInterface {
   category: CategoryInterface;
 }
 
-export interface ProductListResponse {
-  data: ProductInterface[];
-  page: number;
-  totalCount: number;
-}
+export type ProductListResponse = ProductInterface[];

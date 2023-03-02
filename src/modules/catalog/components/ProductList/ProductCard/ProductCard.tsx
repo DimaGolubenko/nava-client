@@ -33,9 +33,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
       <div className="flex justify-between items-center p-2">
         {priceJSX}
-        <button>
-          <Image src={likesImg} width={16} height={14} alt="likes" />
-        </button>
+        <div className="flex items-center gap-2">
+          <button>
+            <Image src={likesImg} width={16} height={14} alt="likes" />
+          </button>
+          <span>{product.likes}</span>
+        </div>
       </div>
     </div>
   );

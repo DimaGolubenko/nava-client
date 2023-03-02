@@ -1,342 +1,338 @@
 {
-  "products": {
-    "data": [
-      {
+  "products": [
+    {
+      "id": 1,
+      "code": "N856959",
+      "price": 1100,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
+        "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
+        "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
+      ],
+      "category": {
         "id": 1,
-        "code": "N856959",
-        "price": 1100,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
-          "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
-          "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 85,
-        "stock": 1
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 2,
-        "code": "N354259",
-        "price": 1200,
-        "promoPrice": 1050,
-        "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
-          "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
-        ],
-        "category": {
-          "id": 3,
-          "hash": "pants",
-          "title": "Брюки",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 35,
-        "stock": 2
-      },
-      {
+      "isActive": true,
+      "likes": 85,
+      "stock": 1
+    },
+    {
+      "id": 2,
+      "code": "N354259",
+      "price": 1200,
+      "promoPrice": 1050,
+      "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
+        "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
+      ],
+      "category": {
         "id": 3,
-        "code": "N358259",
-        "price": 1300,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
-        ],
-        "category": {
-          "id": 2,
-          "hash": "shirts",
-          "title": "Спідниці",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 128,
-        "stock": 2
+        "hash": "pants",
+        "title": "Брюки",
+        "isActive": true
       },
-      {
-        "id": 4,
-        "code": "N486295",
-        "price": 1400,
-        "promoPrice": 1250,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 157,
-        "stock": 1
+      "isActive": true,
+      "likes": 35,
+      "stock": 2
+    },
+    {
+      "id": 3,
+      "code": "N358259",
+      "price": 1300,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
+      ],
+      "category": {
+        "id": 2,
+        "hash": "shirts",
+        "title": "Спідниці",
+        "isActive": true
       },
-      {
-        "id": 5,
-        "code": "N856959",
-        "price": 1100,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
-          "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
-          "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 85,
-        "stock": 1
+      "isActive": true,
+      "likes": 128,
+      "stock": 2
+    },
+    {
+      "id": 4,
+      "code": "N486295",
+      "price": 1400,
+      "promoPrice": 1250,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 6,
-        "code": "N354259",
-        "price": 1200,
-        "promoPrice": 1050,
-        "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
-          "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
-        ],
-        "category": {
-          "id": 3,
-          "hash": "pants",
-          "title": "Брюки",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 35,
-        "stock": 2
+      "isActive": true,
+      "likes": 57,
+      "stock": 1
+    },
+    {
+      "id": 5,
+      "code": "N856959",
+      "price": 1100,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
+        "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
+        "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 7,
-        "code": "N358259",
-        "price": 1300,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
-        ],
-        "category": {
-          "id": 2,
-          "hash": "shirts",
-          "title": "Спідниці",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 128,
-        "stock": 2
+      "isActive": true,
+      "likes": 85,
+      "stock": 1
+    },
+    {
+      "id": 6,
+      "code": "N354259",
+      "price": 1200,
+      "promoPrice": 1050,
+      "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
+        "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
+      ],
+      "category": {
+        "id": 3,
+        "hash": "pants",
+        "title": "Брюки",
+        "isActive": true
       },
-      {
-        "id": 8,
-        "code": "N486295",
-        "price": 1400,
-        "promoPrice": 1250,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 157,
-        "stock": 1
+      "isActive": true,
+      "likes": 35,
+      "stock": 2
+    },
+    {
+      "id": 7,
+      "code": "N358259",
+      "price": 1300,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
+      ],
+      "category": {
+        "id": 2,
+        "hash": "shirts",
+        "title": "Спідниці",
+        "isActive": true
       },
-      {
-        "id": 9,
-        "code": "N856959",
-        "price": 1100,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
-          "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
-          "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 85,
-        "stock": 1
+      "isActive": true,
+      "likes": 128,
+      "stock": 2
+    },
+    {
+      "id": 8,
+      "code": "N486295",
+      "price": 1400,
+      "promoPrice": 1250,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 10,
-        "code": "N354259",
-        "price": 1200,
-        "promoPrice": 1050,
-        "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
-          "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
-        ],
-        "category": {
-          "id": 3,
-          "hash": "pants",
-          "title": "Брюки",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 35,
-        "stock": 2
+      "isActive": true,
+      "likes": 57,
+      "stock": 1
+    },
+    {
+      "id": 9,
+      "code": "N856959",
+      "price": 1100,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
+        "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
+        "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 11,
-        "code": "N358259",
-        "price": 1300,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
-        ],
-        "category": {
-          "id": 2,
-          "hash": "shirts",
-          "title": "Спідниці",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 128,
-        "stock": 2
+      "isActive": true,
+      "likes": 85,
+      "stock": 1
+    },
+    {
+      "id": 10,
+      "code": "N354259",
+      "price": 1200,
+      "promoPrice": 1050,
+      "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
+        "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
+      ],
+      "category": {
+        "id": 3,
+        "hash": "pants",
+        "title": "Брюки",
+        "isActive": true
       },
-      {
-        "id": 12,
-        "code": "N486295",
-        "price": 1400,
-        "promoPrice": 1250,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 157,
-        "stock": 1
+      "isActive": true,
+      "likes": 35,
+      "stock": 2
+    },
+    {
+      "id": 11,
+      "code": "N358259",
+      "price": 1300,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
+      ],
+      "category": {
+        "id": 2,
+        "hash": "shirts",
+        "title": "Спідниці",
+        "isActive": true
       },
-      {
-        "id": 13,
-        "code": "N856959",
-        "price": 1100,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
-          "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
-          "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 85,
-        "stock": 1
+      "isActive": true,
+      "likes": 128,
+      "stock": 2
+    },
+    {
+      "id": 12,
+      "code": "N486295",
+      "price": 1400,
+      "promoPrice": 1250,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 14,
-        "code": "N354259",
-        "price": 1200,
-        "promoPrice": 1050,
-        "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
-          "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
-        ],
-        "category": {
-          "id": 3,
-          "hash": "pants",
-          "title": "Брюки",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 35,
-        "stock": 2
+      "isActive": true,
+      "likes": 57,
+      "stock": 1
+    },
+    {
+      "id": 13,
+      "code": "N856959",
+      "price": 1100,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_3808-01-01_2022-01-03_14-56-17.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_3806-01_2022-01-03_14-56-18.jpeg",
+        "http://localhost:3000/images/70_IMG_3801-01_2022-01-03_14-56-19.jpeg",
+        "http://localhost:3000/images/70_IMG_3817-01_2022-01-03_14-56-20.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
       },
-      {
-        "id": 15,
-        "code": "N358259",
-        "price": 1300,
-        "promoPrice": null,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
-          "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
-        ],
-        "category": {
-          "id": 2,
-          "hash": "shirts",
-          "title": "Спідниці",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 128,
-        "stock": 2
+      "isActive": true,
+      "likes": 85,
+      "stock": 1
+    },
+    {
+      "id": 14,
+      "code": "N354259",
+      "price": 1200,
+      "promoPrice": 1050,
+      "primaryImage": "http://localhost:3000/images/70_Screenshot_20200821-072745-01-01-01_2022-01-07_23-31-14.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_Screenshot_20200123-192043-01-01-01-02-01_2022-01-07_23-31-14.jpeg",
+        "http://localhost:3000/images/70_Screenshot_20200123-192141-01-01-01-01_2022-01-07_23-31-14.jpeg"
+      ],
+      "category": {
+        "id": 3,
+        "hash": "pants",
+        "title": "Брюки",
+        "isActive": true
       },
-      {
-        "id": 16,
-        "code": "N486295",
-        "price": 1400,
-        "promoPrice": 1250,
-        "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
-        "images": [
-          "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
-          "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
-        ],
-        "category": {
-          "id": 1,
-          "hash": "blouses",
-          "title": "Блузи",
-          "isActive": true
-        },
-        "isActive": true,
-        "likes": 157,
-        "stock": 1
-      }
-    ],
-    "page": 1,
-    "totalCount": 16
-  },
+      "isActive": true,
+      "likes": 35,
+      "stock": 2
+    },
+    {
+      "id": 15,
+      "code": "N358259",
+      "price": 1300,
+      "promoPrice": null,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20181017_070142_075-01-1134x1098_2021-06-28_11-59-33.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20181017_070203_147-01-1134x1098_2021-06-28_11-59-49.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072912_606-01-1134x1098_2021-06-28_12-00-02.jpeg",
+        "http://localhost:3000/images/70_IMG_20181017_072527_065-01-1134x1098_2021-06-28_12-00-17.jpeg"
+      ],
+      "category": {
+        "id": 2,
+        "hash": "shirts",
+        "title": "Спідниці",
+        "isActive": true
+      },
+      "isActive": true,
+      "likes": 128,
+      "stock": 2
+    },
+    {
+      "id": 16,
+      "code": "N486295",
+      "price": 1400,
+      "promoPrice": 1250,
+      "primaryImage": "http://localhost:3000/images/70_IMG_20200829_113522-01-01-1-1134x1098_2021-06-28_11-52-16.jpeg",
+      "images": [
+        "http://localhost:3000/images/70_IMG_20200829_112938-02-1134x1098_2021-06-28_11-52-33.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113609-02-1134x1098_2021-06-28_11-52-47.jpeg",
+        "http://localhost:3000/images/70_IMG_20200829_113239-02-1134x1098_2021-06-28_11-53-07.jpeg"
+      ],
+      "category": {
+        "id": 1,
+        "hash": "blouses",
+        "title": "Блузи",
+        "isActive": true
+      },
+      "isActive": true,
+      "likes": 57,
+      "stock": 1
+    }
+  ],
   "categories": [
     {
       "id": 1,

@@ -1,10 +1,11 @@
-import MainLayout from "@/layouts/MainLayout";
-import "@/assets/styles/globals.scss";
+import { ReactElement, ReactNode } from "react";
+import { Provider } from "react-redux";
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
-import { ReactElement, ReactNode } from "react";
+import "@/assets/styles/globals.scss";
+
 import { useStore } from "@/store";
-import { Provider } from "react-redux";
+import MainLayout from "@/layouts/MainLayout";
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;

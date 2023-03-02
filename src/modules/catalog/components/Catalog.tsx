@@ -4,6 +4,7 @@ import styles from "./Catalog.module.scss";
 
 import CatalogFilters from "./CatalogFilters";
 import ProductList from "./ProductList";
+import ProductsSorting from "./ProductsSorting";
 
 const breadcrumbs: Breadcrumb[] = [
   {
@@ -22,7 +23,12 @@ const Catalog = () => {
       <div className="container mx-auto">
         <header className="max-h-6 flex items-center justify-between">
           <Breadcrumbs data={breadcrumbs} />
-          <CatalogFilters />
+
+          <div className="flex gap-5">
+            <ProductsSorting />
+            <span className="w-0.5 bg-whisper"></span>
+            <CatalogFilters />
+          </div>
         </header>
         <div>
           <ProductList />

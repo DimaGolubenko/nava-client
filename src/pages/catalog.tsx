@@ -1,13 +1,15 @@
+import { GetServerSidePropsContext } from "next";
+import { disableSaga } from "@/utils/disableSaga";
+import { getInitialReduxState } from "@/utils/getInitialReduxState";
 import { initialDispatcher } from "@/init/initialDispatcher";
 import { serverDispatch } from "@/init/serverDispatch";
+
 import { Catalog } from "@/modules/catalog";
 import {
   fetchProductsAsync,
   selectProductList,
 } from "@/modules/catalog/store/productsSlice";
-import { disableSaga } from "@/utils/disableSaga";
-import { getInitialReduxState } from "@/utils/getInitialReduxState";
-import { GetServerSidePropsContext } from "next";
+
 import { initializeStore } from "../store";
 
 export const getServerSideProps = async (
